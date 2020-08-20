@@ -1,6 +1,6 @@
 # General-Store
 The project server consists of the api files for the task.
-I have used MongoDB, Express and NodeJs for creating the APIs, 
+I have used MongoDB, Express and NodeJs for creating the APIs. 
 1. the first is user login API
     ![task 1](https://user-images.githubusercontent.com/55585692/90775681-c0b38e80-e316-11ea-936e-3d2c4924810b.png)
     
