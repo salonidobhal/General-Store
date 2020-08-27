@@ -30,4 +30,13 @@ I have used MongoDB, Express and NodeJs for creating the APIs.
 
 5. GET api to fetch data from database:
        ![5](https://user-images.githubusercontent.com/55585692/90775760-d759e580-e316-11ea-819a-b46bde06c526.png)
+       
+       
+ USER INTERFACE:
+ 
+ 1. USER LOGIN
+ 2. VENDOR LOGIN
+ 3. USER REGISTER
+ 4. VENDOR REGISTER
+ 5. ITEM LIST
 
