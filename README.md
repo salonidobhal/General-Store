@@ -32,11 +32,16 @@ I have used MongoDB, Express and NodeJs for creating the APIs.
        ![5](https://user-images.githubusercontent.com/55585692/90775760-d759e580-e316-11ea-819a-b46bde06c526.png)
        
        
- USER INTERFACE:
+ USER INTERFACE(the validation is added for forms):
  
  1. USER LOGIN
+     ![login user](https://user-images.githubusercontent.com/55585692/91433444-eb569780-e880-11ea-871f-c0ac7de71809.png)
  2. VENDOR LOGIN
+     ![login vendor](https://user-images.githubusercontent.com/55585692/91433456-f0b3e200-e880-11ea-810c-0bf797121c31.png)
  3. USER REGISTER
+     ![user resgiter](https://user-images.githubusercontent.com/55585692/91433470-f5789600-e880-11ea-978b-1a2ba2f10839.png)
  4. VENDOR REGISTER
+     ![vendor register](https://user-images.githubusercontent.com/55585692/91433477-f90c1d00-e880-11ea-8c3e-8ca9ccd25b37.png)
  5. ITEM LIST
+     ![item-list](https://user-images.githubusercontent.com/55585692/91433490-fdd0d100-e880-11ea-9159-1cf5c587a640.png)
 
