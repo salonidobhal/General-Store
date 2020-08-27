@@ -10,6 +10,7 @@ const userSchema= mongoose.Schema({
         unique: true,
         match : /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i
     },
+    userName: { type: String, required:true, unique: true},
     password: {type: String, required:true}
 })
 

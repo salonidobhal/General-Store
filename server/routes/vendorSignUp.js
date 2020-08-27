@@ -11,7 +11,7 @@ router.use(bodyParser.json());
 
 router.post('/', (req, res, next) => {
     console.log(req.body);
-    Vendor.find({ email: req.body.email })
+    Vendor.find({ mobile: req.body.mobile })
         .exec()
         .then(vendor => {
             if (vendor.length >= 1) {
@@ -33,6 +33,7 @@ router.post('/', (req, res, next) => {
                             firstName: req.body.firstName,
                             lastName: req.body.lastName,
                             email: req.body.email,
+                            mobile: req.body.mobile,
                             password: hash
                         });
 

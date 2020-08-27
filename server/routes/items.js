@@ -8,13 +8,13 @@ router.get('/', (req, res, next) => {
     Item
     .find()
     .exec()
-        .then(docs => {
+        .then(docs => { 
+            console.log("Status 1: Success");
             console.log(docs);
-            console.log(req.body);
-            console.log(res.body);
             res.status(200).json(docs);
         })
         .catch(err => {
+            console.log("Status 2: Failure");
             res.status(500).json({
                 error: err
             });

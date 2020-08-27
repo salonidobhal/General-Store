@@ -12,7 +12,7 @@ router.use(bodyParser.json());
 router.post('/', (req, res, next) => {
     console.log(req.body);
     
-    User.find({ email: req.body.email })
+    User.find({ userName: req.body.userName })
         .exec()
         .then(user => {
             if (user.length >= 1) {
@@ -34,6 +34,7 @@ router.post('/', (req, res, next) => {
                             firstName: req.body.firstName,
                             lastName: req.body.lastName,
                             email: req.body.email,
+                            userName: req.body.userName,
                             password: hash
                         });
 
